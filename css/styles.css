@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Trispace&display=swap");
+
+.wrapper {
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 15px;
+  font-family: "Trispace", sans-serif;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+}
+
+.title {
+  margin-bottom: 25px;
+}

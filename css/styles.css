@@ -1,14 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Trispace&display=swap");
 
+body {
+  font-family: "Trispace", sans-serif;
+}
+ul {
+  list-style-type: decimal;
+}
+
+li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+button {
+  font-size: 15px;
+  padding: 5px;
+
+  border-radius: 4px;
+  border: 2px solid #212121;
+}
+.add-btn {
+  margin-left: 10px;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.input-js {
+  padding: 5px;
+  font-family: monospace;
+}
+
+.not-done {
+  min-width: 70px;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.done {
+  min-width: 70px;
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+}
+
+.remove {
+  margin-left: 10px;
+  background: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+}
+
 .wrapper {
   max-width: 500px;
   margin: 10px auto;
   padding: 15px;
-  font-family: "Trispace", sans-serif;
   text-align: center;
   border: 2px solid black;
   border-radius: 4px;
   background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+}
+
+.btn-wrapper {
+  margin-top: 10px;
 }
 
 .title {

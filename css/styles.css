@@ -2,6 +2,7 @@
 
 body {
   font-family: "Trispace", sans-serif;
+  background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
 ul {
   list-style-type: decimal;
